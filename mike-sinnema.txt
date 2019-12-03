@@ -1,0 +1,92 @@
+https://codepen.io/msinnema33/pen/OJPJZeg?editors=1100
+
+    1. What is Semantic HTML?
+	The use of tags with specific meaning.
+    2. What is HTML used for? 
+	Displaying information in a logical way on a webpage.
+    3. What is an attribute and where do we put it? 
+	attributes help identify and provide locations for certain tags.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	Main heading/Title.  Should only be used 1 time / page.
+    5. Name two tags that have required attributes
+	anchor tag (href), and img tag (src).
+    6. What do we put in the head of our HTML document? 
+	The website title and information to help search engines classify our site/page.  locations of external stylesheets, fonts, and such also go here.
+    7. What is an id? 
+	a way to identify 1 specific element per page.
+    8. What elements can I add an id to? 
+	any
+    9. How many times can I use the same id on a page? 
+	1 time
+    10. What is a class? 
+	a way to group of elements for styling purposes.
+    11. What elements can I add a class to? 
+	any/all/none/some.
+    12. How many times can I use the same class on a page? 
+	As many as you need to.
+    13. How do I get my link to open in a new tab?
+	add a target = blank attribute.
+    14. What is the alt attribute used for? 
+	describing an img tag in case it doesn't display or the user has visual problems.
+    15. How do I reference an id?
+	With the #.
+    16. What is the difference between a section and a div
+	Semantics.
+    17. What is CSS used for? 
+	Styling HTML
+    18. How to we select an element? Example - every h2 on the page
+	h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	ID applies to a single element on a page.  Class can apply to multiple elements on a page.
+    20. How do we select classes in CSS?
+	.(period)classname.
+    21. How do we select a p element with a single class of “human””?
+	p human{}
+    22. What is a parent child selector? When would this be useful? 
+	When you want to select all elements that are a direct child of the parent.  (OL or UL).
+    23. How do you select all links within a div with the class of sidebar?
+	.sidebar a {}
+    24. What is a pseudo selector?
+	Acts like a class (:hover)
+    25. What do we use the change the spacing between lines?
+	line-height:
+    26. What do we use to change the spacing between letters?
+	letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	toUpperCase; toLowercase; :Capitalize
+    28. How do I add a 1px border around my div that is dotted and black?
+	border: 1px, dotted, #000
+    29. How do I select everything on the page? 
+	* (universal selector)
+    30. How do I write a comment in CSS?
+	/*    */
+    31. How do I find out what file I am in, when I am using the command line? 
+	pwd (present working directory)
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls  (-a) includes hidden files/folders.
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm  because it's really gone, no recycle bin failsafe.
+    34. Why should I use version control? 
+	to keep track of all edits to files.
+    35. How often should I commit to github?
+	major changes = often.
+    36. What is the command we would use to push our repo up to github? 
+    37. Walk me through Lambda's git flow.
+	Step 1 = fork repo; Step 2 = Add T/L to collaborate; Step 3 = Clone (copy use git bash to put on your computer);
+	Step 4 = Branch your fork; Step 5 = make your changes; Step 6 = add, commit, push to origin; Step 7 =  use your fork as the
+	base-fork to compare across forks (Ensures you don't submit a PR to the Lambda master.; Step 8 =  pull and compare;
+	Step 9 = add T/L as a reviewer; Step 10 = T/L merges, reviews and accepts the changes.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	block elements cause a line break; inline do not.
+    2. What happens when an element is positioned absolutely? 
+	Absolute positioning allows you to place your element precisely where you want it. Absolute positioning is done relative to the
+	first relatively (or absolutely) positioned parent element. In the case when there is no positioned parent element, the element
+	 that has position set to absolute will be positioned related directly to the HTML element (the page itself).
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	<div>, <p>, <ul> block; <a> and <span> inline; <nav>inline-block.
+    5. In your own words, explain the box model. What is the fix for the box model?
+	box model is a pattern for positioning HTML on the page using CSS. display property.
